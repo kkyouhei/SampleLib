@@ -14,6 +14,8 @@
 		22F00EE81EABA25A000BEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F00EE71EABA25A000BEC02 /* Assets.xcassets */; };
 		22F00EEB1EABA25A000BEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F00EE91EABA25A000BEC02 /* LaunchScreen.storyboard */; };
 		22F00EF61EABA25A000BEC02 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F00EF51EABA25A000BEC02 /* DemoTests.swift */; };
+		22F00F071EABAB09000BEC02 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F00F051EABAB09000BEC02 /* Info.plist */; };
+		22F00F091EABABF6000BEC02 /* SampleLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F00F081EABABF6000BEC02 /* SampleLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		22F00EF11EABA25A000BEC02 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F00EF51EABA25A000BEC02 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		22F00EF71EABA25A000BEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F00F051EABAB09000BEC02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F00F061EABAB09000BEC02 /* SampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLib.h; sourceTree = "<group>"; };
+		22F00F081EABABF6000BEC02 /* SampleLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 				22F00EDC1EABA259000BEC02 /* Demo */,
 				22F00EF41EABA25A000BEC02 /* DemoTests */,
 				22F00EDB1EABA258000BEC02 /* Products */,
+				22F00F041EABAB09000BEC02 /* SampleLib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +103,17 @@
 				22F00EF71EABA25A000BEC02 /* Info.plist */,
 			);
 			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		22F00F041EABAB09000BEC02 /* SampleLib */ = {
+			isa = PBXGroup;
+			children = (
+				22F00F051EABAB09000BEC02 /* Info.plist */,
+				22F00F061EABAB09000BEC02 /* SampleLib.h */,
+				22F00F081EABABF6000BEC02 /* SampleLib.swift */,
+			);
+			name = SampleLib;
+			path = ../SampleLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F00F071EABAB09000BEC02 /* Info.plist in Resources */,
 				22F00EEB1EABA25A000BEC02 /* LaunchScreen.storyboard in Resources */,
 				22F00EE81EABA25A000BEC02 /* Assets.xcassets in Resources */,
 				22F00EE31EABA259000BEC02 /* Main.storyboard in Resources */,
@@ -205,6 +223,7 @@
 				22F00EE61EABA25A000BEC02 /* Demo.xcdatamodeld in Sources */,
 				22F00EE01EABA259000BEC02 /* ViewController.swift in Sources */,
 				22F00EDE1EABA259000BEC02 /* AppDelegate.swift in Sources */,
+				22F00F091EABABF6000BEC02 /* SampleLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
